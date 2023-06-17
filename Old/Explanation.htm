@@ -1,0 +1,203 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>Payne College Football Power Ratings Explanation</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{color:#660000;
+	text-decoration:none none;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+pre
+	{mso-style-link:"HTML Preformatted Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+span.HTMLPreformattedChar
+	{mso-style-name:"HTML Preformatted Char";
+	mso-style-link:"HTML Preformatted";
+	font-family:"Consolas","serif";}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;
+	font-family:"Times New Roman","serif";}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body bgcolor=white background=fbbackground.jpg lang=EN-US link="#660000"
+vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>Payne College Football Power Ratings - Explanation</span></b></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center;
+text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center;
+text-indent:-.25in'><b>&nbsp;</b><u><a href="PayneRatings.htm"><u>Current
+Ratings</u></a></u>&nbsp;&nbsp;&nbsp;&nbsp;<span style='font-size:10.0pt;
+font-family:Symbol'>·</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><u><a
+href="mailto:bruce.payne@dynetics.com?subject=Payne%20College%20Football%20Power%20Ratings"><u>Email
+me</u></a></u></p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal><b>Composite Ratings</b></p>
+
+<p class=MsoNormal>The Payne College Football Power Ratings use a composite of
+two different systems, a MOV or margin of victory system, and a WL or Win/Loss
+only system. The ratings in each system are computed independently, and then a
+weighted average is used to combine the two ratings. The systems are defined in
+more detail below. To predict a game based on the Power Ratings, the home team
+is predicted to win by its power rating plus the home field advantage minus the
+away team’s power rating (if the result is negative, then the away team is
+predicted to win by this margin). Click on any team name from the main ratings
+page, and you can see detailed predictions for that team for the regular
+season.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>WL Ratings</b></p>
+
+<p class=MsoNormal>The WL or Win/Loss ratings consider only the winner and
+loser of each game played. No consideration is given to margin of victory, home
+field advantage, or date the games are played. This system is completely BCS
+compliant and correlates well with the other computer ranking systems. To
+optimize the WL ratings the computer determines the probability that the victor
+of each game played matches the actual victor based on the current ratings. It
+will then iterate the ratings until a maximum total probability is reached for
+all games played to date. The probability function is based on the P-Win
+concept described in more detail below.</p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>MOV Ratings</b></p>
+
+<p class=MsoNormal>The MOV or margin of victory rankings use a predictive least
+squares fit of previous games played. The model used considers margin of
+victory (MOV), where the game played, and when the game was played. It includes
+all games involving at least one FBS school.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>By analyzing the score of each game played and minimizing
+the sum of the square of the errors of the expected scores for these games
+based on the power ratings, the computer iteratively adjusts the power ratings
+and the home field advantage until an optimal point is reached.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The MOV model keeps up with all FBS schools and all schools
+that play at least two games against FBS schools. The ratings from non-FBS
+schools are not included in the posted list however. These schools ratings only
+become meaningful to the FBS ratings when they play more than one FBS school,
+allowing for meaningful relative comparisons to occur. </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>To achieve a unique solution during the first four weeks of
+the season, the previous year’s games are considered very slightly. All of the
+previous season’s games are considered to occur on January 1st of the current
+year. The error squared term for each game is scaled by the following factor:</p>
+
+<p class=MsoNormal align=center style='text-align:center'><i>MAX(0, 1-D/270)</i></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Where <i>D</i> is the number of days since the game was
+played. Thus a game played when the rakings are computed is scaled by a full
+100%, but a game 270 days or more ago is not considered at all. Therefore all
+of the last year’s games are scaled down to zero after about the fourth week of
+the season. Even at the start of the season they are considered only a small
+amount relative to the current season’s games.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>During the first few weeks this method can lead to some
+controversial results since it is weighed heavily on the relatively few games
+played to that point in the current season. However I don’t think it wise to
+weigh last year’s results very heavily. I’d rather not have to consider them it
+all, but something is required to develop a unique solution before all teams
+are “connected” to each other through games played. Keep in mind that many
+rating systems do not even attempt to rate the teams early in the season for
+this very reason. I believe it is still interesting to see how the teams rank
+even if it is less meaningful than it will be later in the season.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>P-Win</b></p>
+
+<p class=MsoNormal>The <b>P-Win</b> column in the rankings and prediction page
+is the probability that the team will win its next game. This assumes a normal
+distribution of result errors and a standard deviation of 15.72. This normal
+distribution matches well the college football data from the last several years.
+The “<b>Visitor Win Prob</b>” on the “<b>All Predictions</b>” page uses a
+similar assumption to compute probability. These probabilities are included in
+the <b>probability model</b> for the final record and the <b>Prob Undef</b>
+calculations defined below.</p>
+
+<p class=MsoNormal><a name=FinalRecord>&nbsp;</a></p>
+
+<p class=MsoNormal><b>Final Records</b></p>
+
+<p class=MsoNormal>Two models are used to predict a team’s final regular season
+record. The <b>probability model</b> uses the sum of the team’s chance of
+winning each game as its total wins for the regular season (and computes predicted
+losses similarly). The <b>boolean model</b>, just looks at each matchup and
+give the team a win for each that it is expected to win. The probability model
+is a better predictor of final record. The <b>Prob Undef</b> column is the
+computed probability that the team will finish the regular season undefeated.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

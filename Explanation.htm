@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Payne College Football Power Ratings Explanation</title>
+<meta name=Keywords
+content="College, Football, Power, Ratings, Predictions, FBS, BCS, Rankings, Colleage Football, Power Ratings">
+<meta name=Description
+content="Ratings provide a predictive power ratings system for all FBS schools. Provides a means to predict game outcomes.">
+<meta name=Author content="bruce.payne@dynetics.com">
+</head>
+
+<body bgcolor=white background=fbbackground.jpg lang=EN-US link="#660000"
+vlink=purple>
+<p align=center style='margin-bottom:0;text-align:center'><b><span
+style='font-size:22.0pt'>Payne College Football Power Ratings</span></b></p>
+ 
+<p align=center style='margin:0;text-align:center'>
+<u><a href="PayneRatings.htm"><u>Current Ratings</u></a></u>&nbsp;&nbsp;
+<u><a href="Explanation.htm"><u>Explanation</u></a></u>&nbsp;&nbsp;
+<u><a href="Predictions.htm"><u>All Predictions</u></a></u>&nbsp;&nbsp;
+<u><a href="mailto:bruce.payne@dynetics.com?subject=Payne%20College%20Football%20Power%20Ratings"><u>
+Email me</u></a></u></p>
+<p align=center style='margin-bottom:0;text-align:center'><b>Help keep the Payne Ratings ad free. Thanks for your support!</b></p>
+<form align=center style='margin-bottom:0;text-align:center;action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'>
+<input type='hidden' name='cmd' value='_s-xclick'>
+<input type='hidden' name='hosted_button_id' value='2J7STQGC2EMWU'>
+<input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!'>
+<img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1'>
+</form>
+
+<p style='margin-bottom:0'><b>Overall Ratings</b></p>
+
+<p style='margin:0'>The Payne College Football Power Ratings use a composite of
+two different systems, a Predict or margin of victory based system, and a W/L or Win/Loss
+only system. The ratings in each system are computed independently, and then a
+weighted average is used to combine the two ratings. The weighting adjusts throughout
+the season from using a higher weight for the Predict at the beginning of the season
+to a lower weight for the Predict by the end of the season. Since there is relatively
+little data at the beginning of the season, considering the margins of victory is needed
+to have sufficient data to make the ratings meaningful. By the end of the season, more data
+is available and teams are more rewarded for their on-the-field record than on margins of
+victory. Thus the overall ratings are the best system when determining how teams should be 
+ranked based on actual game performance. To predict a game based on the Payne Ratings, 
+the home team is predicted to win by its power rating plus the home field advantage minus 
+the away team's power rating (if the result is negative, then the away team is
+predicted to win by this margin).  The systems are defined in more detail below. </p>
+
+<p style='margin-bottom:0'><b>W/L Ratings</b></p>
+
+<p style='margin:0'>The W/L or Win/Loss ratings consider only the winner and
+loser of each game played. No consideration is given to margin of victory, home
+field advantage, or date the games are played. This system is completely BCS
+compliant and correlates well with the other computer ranking systems. To
+optimize the W/L ratings the computer determines the probability that the victor
+of each game played matches the actual victor based on the current ratings. It
+will then iterate the ratings until a maximum total probability is reached for
+all games played to date. The probability function is based on the P-Win
+concept described in more detail below. Note that for the first 4 weeks of the 
+season (or whenever all teams become "connected"), other factors are considered
+to create a unique solution for the W/L model.</p>
+
+<p style='margin-bottom:0'><b>Predict Ratings</b></p>
+
+<p style='margin:0'>The Predict rankings use a predictive least
+squares fit of previous games played. The model used considers several factors including
+margin of victory, where the game is played, and when the game was played. It includes
+all games involving at least one FBS school. This is the model that is used for
+predicting all future games. Click on any team name from the main ratings
+page, and you can see detailed predictions for that team for the regular
+season.&nbsp;</p>
+
+<p style='margin-bottom:0'><b>P-Win</b></p>
+
+<p style='margin:0'>The <b>P-Win</b> column in the rankings and prediction page
+is the probability that the team will win its next game. This assumes a normal
+distribution of result errors and a standard deviation of 15.72. This normal
+distribution matches well the college football data from the last several years.
+The "<b>Visitor Win Prob</b>" on the "<b>All Predictions</b>" page uses a
+similar assumption to compute probability. These probabilities are used for the final 
+record prediction and the <b>Prob Undef</b> calculations defined below.</p>
+
+<p style='margin-bottom:0'><b>Final Records</b></p>
+
+<p style='margin:0'>Two models are used to predict a team's final regular season
+record on the individual team pages. The <b>probability model</b> uses the sum of the 
+team's chance of
+winning each game as its total wins for the regular season (and computes predicted
+losses similarly). This is the model that is used on the main ratings page.
+The <b>boolean model</b>, just looks at each matchup and
+gives the team a win for each game that it is expected to win. The probability model
+is a better predictor of final record. The <b>Prob Undef</b> column is the
+computed probability that the team will finish the regular season undefeated.</p>
+
+
+</body>
+
+</html>
